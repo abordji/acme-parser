@@ -1,0 +1,17 @@
+[
+  {
+    "name": "uid",
+    "prefix": "uid",
+    "pattern": "^[0-9]+"
+  },
+  {
+    "name": "email",
+    "prefix": "@",
+    "pattern": "^[[:alpha:]]+@[[:alpha:]]+\\.(com|net|org|fr)"
+  },
+  {
+    "name": "cookie",
+    "prefix": "cookie",
+    "pattern": "^[a-f0-9]{32}"
+  }
+]
